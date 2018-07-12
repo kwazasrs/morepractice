@@ -1,11 +1,12 @@
----
-title: "Happy Git Testing"
-author: "Kerry"
-date: "July 12, 2018"
-output: 
-  html_document: 
-    keep_md: yes
----
+This is a simple sentence.
+```{r}
+## insert your brilliant WORKING code here
+y = 20
+x <- y^5
+new = (mean(x))
+print(new)
+```
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
